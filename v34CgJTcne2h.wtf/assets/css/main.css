@@ -1,0 +1,17 @@
+/* vim: set ts=2 sw=2: */
+
+/* Normalize body/html to fill whole browser window. */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+.fullsize {
+  height: 100%;
+  width: 100%;
+}
+

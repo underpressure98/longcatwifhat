@@ -1,0 +1,310 @@
+.section-airspace {
+  background: linear-gradient(to top, #25006f 0%, rgba(0, 0, 0, 0) 30%),
+              url('../img/airspace/starmap.gif');
+  bottom: 15470px;
+  height: 60000px;
+}
+
+/* --- */
+
+.section-airspace__satelite {
+  animation: moveAround 13s infinite;
+  background: url('../img/airspace/satelite.gif') center / 400px 250px no-repeat;
+  bottom: 9000px;
+  height: 250px;
+  width: 400px;
+}
+
+/* --- */
+
+.section-airspace__astronaut {
+  animation: moveAround 10s infinite;
+  background: url('../img/airspace/astronaut.gif') center / 160px 200px no-repeat;
+  bottom: 14000px;
+  height: 200px;
+  left: 60%;
+  width: 160px;
+}
+
+/* --- */
+
+.section-airspace__iss {
+  animation: moveAround 20s infinite;
+  background: url('../img/airspace/iss.gif') center / 1000px 1300px no-repeat;
+  bottom: 24000px;
+  height: 1300px;
+  width: 1000px;
+}
+
+/* --- */
+
+.section-airspace__shoe {
+  animation: moveAround 8s infinite;
+  background: url('../img/airspace/kak.gif') center / 100px 80px no-repeat;
+  bottom: 30000px;
+  height: 80px;
+  left: 50%;
+  width: 100px;
+}
+
+/* --- */
+
+.section-airspace__kak {
+  animation: moveAround 20s infinite;
+  background: url('../img/airspace/kak.gif') center / 200px 190px no-repeat;
+  bottom: 38000px;
+  height: 190px;
+  left: 20%;
+  width: 200px;
+}
+
+/* --- */
+
+.section-airspace__waldo {
+  animation: moveAround 4s infinite;
+  background: url('../img/airspace/waldo.gif') center / 50px 100px no-repeat;
+  bottom: 45000px;
+  height: 100px;
+  left: 30%;
+  width: 50px;
+}
+
+/* --- */
+
+.section-airspace__hitler {
+  animation: moveAround 12s infinite;
+  background: url('../img/airspace/hitler.gif') center / 230px 500px no-repeat;
+  bottom: 50000px;
+  height: 500px;
+  left: 45%;
+  width: 230px;
+}
+
+/* --- Asteroids --- */
+
+.section-airspace__asteroid--one {
+  animation: moveAround 14s infinite;
+  background: url('../img/airspace/asteroid.gif') center / 270px 220px no-repeat;
+  height: 220px;
+  width: 270px;
+}
+
+.section-airspace__asteroid--two {
+  animation: moveAround 12s infinite;
+  background: url('../img/airspace/asteroid2.gif') center / 300px 160px no-repeat;
+  height: 160px;
+  width: 300px;
+}
+
+.section-airspace__asteroid--three {
+  animation: moveAround 10s infinite;
+  background: url('../img/airspace/asteroid3.gif') center / 222px 120px no-repeat;
+  height: 130px;
+  width: 222px;
+}
+
+@keyframes moveAround {
+  0%   { transform: rotate(0deg) translate(0, 0); }
+  50% { transform: rotate(180deg) translate(25%, 25%); }
+  100%   { transform: rotate(360deg) translate(0, 0); }
+}
+
+.section-airspace__asteroid:nth-child(1) {
+  bottom: 15900px;
+  left: 80%;
+}
+
+.section-airspace__asteroid:nth-child(2) {
+  bottom: 16800px;
+  left: 80%;
+}
+
+.section-airspace__asteroid:nth-child(3) {
+  bottom: 17700px;
+  left: 65%;
+}
+
+.section-airspace__asteroid:nth-child(4) {
+  bottom: 18600px;
+  left: 185%;
+}
+
+.section-airspace__asteroid:nth-child(5) {
+  bottom: 19500px;
+  left: 89%;
+}
+
+.section-airspace__asteroid:nth-child(6) {
+  bottom: 20400px;
+  left: 29%;
+}
+
+.section-airspace__asteroid:nth-child(7) {
+  bottom: 21300px;
+  left: 41%;
+}
+
+.section-airspace__asteroid:nth-child(8) {
+  bottom: 22200px;
+  left: 3%;
+}
+
+.section-airspace__asteroid:nth-child(9) {
+  bottom: 23100px;
+  left: 10%;
+}
+
+.section-airspace__asteroid:nth-child(10) {
+  bottom: 24000px;
+  left: 134%;
+}
+
+.section-airspace__asteroid:nth-child(11) {
+  bottom: 24900px;
+  left: 48%;
+}
+
+.section-airspace__asteroid:nth-child(12) {
+  bottom: 25800px;
+  left: 70%;
+}
+
+.section-airspace__asteroid:nth-child(13) {
+  bottom: 26700px;
+  left: 122%;
+}
+
+.section-airspace__asteroid:nth-child(14) {
+  bottom: 27600px;
+  left: 64%;
+}
+
+.section-airspace__asteroid:nth-child(15) {
+  bottom: 28500px;
+  left: 61%;
+}
+
+.section-airspace__asteroid:nth-child(16) {
+  bottom: 29400px;
+  left: 132%;
+}
+
+.section-airspace__asteroid:nth-child(17) {
+  bottom: 30300px;
+  left: 77%;
+}
+
+.section-airspace__asteroid:nth-child(18) {
+  bottom: 31200px;
+  left: 12%;
+}
+
+.section-airspace__asteroid:nth-child(19) {
+  bottom: 32100px;
+  left: 96%;
+}
+
+.section-airspace__asteroid:nth-child(20) {
+  bottom: 33000px;
+  left: 151%;
+}
+
+.section-airspace__asteroid:nth-child(21) {
+  bottom: 33900px;
+  left: 34%;
+}
+
+.section-airspace__asteroid:nth-child(22) {
+  bottom: 34800px;
+  left: -10%;
+}
+
+.section-airspace__asteroid:nth-child(23) {
+  bottom: 35700px;
+  left: 28%;
+}
+
+.section-airspace__asteroid:nth-child(24) {
+  bottom: 36600px;
+  left: 56%;
+}
+
+.section-airspace__asteroid:nth-child(25) {
+  bottom: 37500px;
+  left: 156%;
+}
+
+.section-airspace__asteroid:nth-child(26) {
+  bottom: 38400px;
+  left: 16%;
+}
+
+.section-airspace__asteroid:nth-child(27) {
+  bottom: 39300px;
+  left: 163%;
+}
+
+.section-airspace__asteroid:nth-child(28) {
+  bottom: 40200px;
+  left: 118%;
+}
+
+.section-airspace__asteroid:nth-child(29) {
+  bottom: 41100px;
+  left: 129%;
+}
+
+.section-airspace__asteroid:nth-child(30) {
+  bottom: 42000px;
+  left: 148%;
+}
+
+.section-airspace__asteroid:nth-child(31) {
+  bottom: 42900px;
+  left: 112%;
+}
+
+.section-airspace__asteroid:nth-child(32) {
+  bottom: 43800px;
+  left: 58%;
+}
+
+.section-airspace__asteroid:nth-child(33) {
+  bottom: 44700px;
+  left: 136%;
+}
+
+.section-airspace__asteroid:nth-child(34) {
+  bottom: 45600px;
+  left: 176%;
+}
+
+.section-airspace__asteroid:nth-child(35) {
+  bottom: 46500px;
+  left: -55%;
+}
+
+.section-airspace__asteroid:nth-child(36) {
+  bottom: 47400px;
+  left: -27%;
+}
+
+.section-airspace__asteroid:nth-child(37) {
+  bottom: 48300px;
+  left: 41%;
+}
+
+.section-airspace__asteroid:nth-child(38) {
+  bottom: 49200px;
+  left: 124%;
+}
+
+.section-airspace__asteroid:nth-child(39) {
+  bottom: 50100px;
+  left: 20%;
+}
+
+.section-airspace__asteroid:nth-child(40) {
+  bottom: 51000px;
+  left: 90%;
+}

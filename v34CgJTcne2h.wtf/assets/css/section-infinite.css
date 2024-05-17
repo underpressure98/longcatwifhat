@@ -1,0 +1,55 @@
+.body--infinite {
+  animation: stepAnimation 10s infinite;
+}
+
+.section-infinite-start {
+  background-color: rgb(0, 0, 0);
+  bottom: 75400px;
+  height: 15000px;
+}
+
+.section-infinite-start--stepanimation {
+  animation: stepAnimation 5s infinite;
+}
+
+.section-infinite-start__fin {
+  animation: stepAnimation 5s infinite;
+  background: url('../img/fin.gif') center / 500px 570px no-repeat;
+  bottom: 5000px;
+  height: 570px;
+  left: 10%;
+  width: 500px;
+}
+
+.section-infinite-start__adsbygoogle {
+  bottom: 14800px;
+  width: 100%;
+  height: 350px;
+  min-width: 320px;
+}
+
+.section-infinite-start__adsbygoogle--two {
+  bottom: 18800px;
+}
+
+.section-infinite-start__adsbygoogle--three {
+  bottom: 24800px;
+}
+
+.section-infinite-start__adsbygoogle--four {
+  bottom: 38800px;
+}
+
+@keyframes stepAnimation {
+  0%  { background-color: rgb(255, 0, 0); }
+  10% { background-color: rgb(0, 255, 0); }
+  20% { background-color: rgb(0, 0, 255); }
+  30% { background-color: rgb(255, 255, 0); }
+  40% { background-color: rgb(0, 255, 255); }
+  50% { background-color: rgb(255, 0, 255); }
+  60% { background-color: rgb(0, 0, 0); }
+  70% { background-color: rgb(255, 255, 255); }
+  80% { background-color: rgb(0, 0, 255); }
+  90% { background-color: rgb(0, 255, 0); }
+  100%  { background-color: rgb(255, 0, 0); }
+}

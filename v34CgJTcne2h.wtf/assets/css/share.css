@@ -1,0 +1,43 @@
+.share {
+  bottom: 0;
+  color: white;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 0.8px;
+  text-shadow: black 0 0 2px;
+  position: fixed;
+  right: 0;
+  margin: 10px;
+  z-index: 9999;
+}
+
+.share__img {
+  cursor: pointer;
+  display: inline-block !important;
+  height: 30px;
+  padding: 0 5px;
+  vertical-align: middle;
+  width: 30px;
+}
+
+.share__img:first-child {
+  padding-right: 0;
+}
+.fixed-buttons {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  z-index: 9999;
+  flex-direction: row;
+}
+
+.fixed-buttons a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.fixed-buttons img {
+  width: 30px;
+  height: 30px;
+  border-radius: 20%;
+}

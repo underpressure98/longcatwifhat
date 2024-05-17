@@ -1,0 +1,14 @@
+.section-earth-top {
+  height: 700px;
+  bottom: 3020px;
+}
+
+.section-earth-top__wall {
+  background: url('../img/earth/wall.gif') center bottom / 1000px 150px repeat-x;
+  bottom: -70px
+}
+
+.section-earth-top__floor {
+  background: url('../img/earth/top-floor.gif') center bottom / 730px 240px no-repeat,
+              url('../img/earth/floor.gif') 0 0 / 275px 275px repeat;
+}

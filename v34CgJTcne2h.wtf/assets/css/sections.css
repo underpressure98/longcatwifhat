@@ -1,0 +1,8 @@
+.section {
+  position: absolute;
+  width: 100%;
+}
+
+.section__element {
+  position: absolute;
+}

@@ -1,0 +1,52 @@
+.section-buildings {
+  background: #ded1c1 url('../img/building/skyline.jpg') 0 bottom / 2000px 625px repeat-x;
+  bottom: 3500px;
+  height: 2000px;
+}
+
+.section-buildings__pisa {
+  background: url('../img/building/pisa.gif') 150% bottom / 400px 1100px no-repeat;
+  bottom: -20px;
+}
+
+.section-buildings__jesus {
+  background: url('../img/building/jesus.gif') 100% bottom / 900px 1200px no-repeat;
+  bottom: -160px;
+  transform: translateY(-48mm);
+}
+
+.section-buildings__bigben {
+  background: url('../img/building/bigben.gif') 25% bottom / 280px 1400px no-repeat;
+  bottom: -290px;
+  transform: translateY(-96mm);
+}
+
+.section-buildings__berlin {
+  background: url('../img/building/berlin.gif') 50% bottom / 180px 1800px no-repeat;
+  bottom: -425px;
+  transform: translateY(-145mm);
+}
+
+.section-buildings__colloseum {
+  background: url('../img/building/colloseum.gif') 75% bottom / 1200px 600px no-repeat;
+  bottom: -565px;
+  transform: translateY(-195mm);
+}
+
+.section-buildings__eiffel {
+  background: url('../img/building/paris.gif') 0 bottom / 560px 1400px no-repeat;
+  bottom: -700px;
+  transform: translateY(-240mm);
+}
+
+.section-buildings__atomium {
+  background: url('../img/building/atomium.gif') -25% bottom / 700px 780px no-repeat;
+  bottom: -840px;
+  transform: translateY(-290mm);
+}
+
+.section-buildings__liberty {
+  background: url('../img/building/liberty.gif') 125% bottom / 500px 1500px no-repeat;
+  bottom: -975px;
+  transform: translateY(-340mm);
+}

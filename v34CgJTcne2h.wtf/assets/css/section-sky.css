@@ -1,0 +1,163 @@
+.section-sky {
+  background: linear-gradient(to top, #ded1c1 0%,#2989d8 80%,#25006f 100%);
+  bottom: 5480px;
+  height: 10000px;
+}
+
+.section-sky__cloud--one {
+  background: url('../img/sky/cloud1.png') center / 600px 300px no-repeat;
+}
+
+.section-sky__cloud--two {
+  background: url('../img/sky/cloud2.png') center / 580px 200px no-repeat;
+}
+
+.section-sky__cloud--three {
+  background: url('../img/sky/cloud3.png') center / 530px 190px no-repeat;
+}
+
+.section-sky__cloud--one:nth-child(1) {
+  animation: moveCloudA 18s infinite;
+}
+.section-sky__cloud--one:nth-child(2) {
+  animation: moveCloudB 17s infinite;
+}
+.section-sky__cloud--one:nth-child(3) {
+  animation: moveCloudC 14s infinite;
+}
+.section-sky__cloud--one:nth-child(4) {
+  animation: moveCloudD 16s infinite;
+}
+.section-sky__cloud--one:nth-child(5) {
+  animation: moveCloudE 15s infinite;
+}
+.section-sky__cloud--one:nth-child(6) {
+  animation: moveCloudF 19s infinite;
+}
+.section-sky__cloud--two:nth-child(1) {
+  animation: moveCloudTwoA 14s infinite;
+}
+.section-sky__cloud--two:nth-child(2) {
+  animation: moveCloudTwoB 18s infinite;
+}
+.section-sky__cloud--two:nth-child(3) {
+  animation: moveCloudTwoC 17s infinite;
+}
+.section-sky__cloud--two:nth-child(4) {
+  animation: moveCloudTwoD 16s infinite;
+}
+.section-sky__cloud--two:nth-child(5) {
+  animation: moveCloudTwoE 15s infinite;
+}
+.section-sky__cloud--two:nth-child(6) {
+  animation: moveCloudTwoF 19s infinite;
+}
+.section-sky__cloud--three:nth-child(1) {
+  animation: moveCloudThreeA 19s infinite;
+}
+.section-sky__cloud--three:nth-child(2) {
+  animation: moveCloudThreeB 16s infinite;
+}
+.section-sky__cloud--three:nth-child(3) {
+  animation: moveCloudThreeC 17s infinite;
+}
+.section-sky__cloud--three:nth-child(4) {
+  animation: moveCloudThreeD 15s infinite;
+}
+.section-sky__cloud--three:nth-child(5) {
+  animation: moveCloudThreeE 18s infinite;
+}
+.section-sky__cloud--three:nth-child(6) {
+  animation: moveCloudThreeF 14s infinite;
+}
+
+@keyframes moveCloudA {
+  0%   { background-position: -100% 15%; }
+  50% { background-position: 200% 15%; }
+  100%   { background-position: -100% 15%; }
+}
+@keyframes moveCloudB {
+  0%   { background-position: -100% 30%; }
+  50% { background-position: 200% 30%; }
+  100%   { background-position: -100% 30%; }
+}
+@keyframes moveCloudC {
+  0%   { background-position: -10% 45%; }
+  50% { background-position: 100% 45%; }
+  100%   { background-position: -10% 45%; }
+}
+@keyframes moveCloudD {
+  0%   { background-position: -50% 60%; }
+  50% { background-position: 150% 60%; }
+  100%   { background-position: -50% 60%; }
+}
+@keyframes moveCloudE {
+  0%   { background-position: -50% 75%; }
+  50% { background-position: 150% 75%; }
+  100%   { background-position: -50% 75%; }
+}
+@keyframes moveCloudF {
+  0%   { background-position: -50% 100%; }
+  50% { background-position: 150% 100%; }
+  100%   { background-position: -50% 100%; }
+}
+@keyframes moveCloudTwoA {
+  0%   { background-position: -100% 5%; }
+  50% { background-position: 200% 5%; }
+  100%   { background-position: -100% 5%; }
+}
+@keyframes moveCloudTwoB {
+  0%   { background-position: -100% 20%; }
+  50% { background-position: 200% 20%; }
+  100%   { background-position: -100% 20%; }
+}
+@keyframes moveCloudTwoC {
+  0%   { background-position: -10% 35%; }
+  50% { background-position: 100% 35%; }
+  100%   { background-position: -10% 35%; }
+}
+@keyframes moveCloudTwoD {
+  0%   { background-position: -50% 50%; }
+  50% { background-position: 150% 50%; }
+  100%   { background-position: -50% 50%; }
+}
+@keyframes moveCloudTwoE {
+  0%   { background-position: -50% 65%; }
+  50% { background-position: 150% 65%; }
+  100%   { background-position: -50% 65%; }
+}
+@keyframes moveCloudTwoF {
+  0%   { background-position: -50% 90%; }
+  50% { background-position: 150% 90%; }
+  100%   { background-position: -50% 90%; }
+}
+@keyframes moveCloudThreeA {
+  0%   { background-position: -100% 10%; }
+  50% { background-position: 200% 10%; }
+  100%   { background-position: -100% 10%; }
+}
+@keyframes moveCloudThreeB {
+  0%   { background-position: -100% 25%; }
+  50% { background-position: 200% 25%; }
+  100%   { background-position: -100% 25%; }
+}
+@keyframes moveCloudThreeC {
+  0%   { background-position: -10% 40%; }
+  50% { background-position: 100% 40%; }
+  100%   { background-position: -10% 40%; }
+}
+@keyframes moveCloudThreeD {
+  0%   { background-position: -50% 55%; }
+  50% { background-position: 150% 55%; }
+  100%   { background-position: -50% 55%; }
+}
+@keyframes moveCloudThreeE {
+  0%   { background-position: -50% 70%; }
+  50% { background-position: 150% 70%; }
+  100%   { background-position: -50% 70%; }
+}
+@keyframes moveCloudThreeF {
+  0%   { background-position: -50% 95%; }
+  50% { background-position: 150% 95%; }
+  100%   { background-position: -50% 95%; }
+}
